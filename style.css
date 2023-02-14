@@ -1,0 +1,105 @@
+:root {
+  --clr-primary-900: hsl(157, 46%, 17%);
+  --clr-primary-800: hsl(158, 36%, 37%);
+  --clr-primary-400: hsl(30, 38%, 92%);
+
+  --clr-neutral-800: hsl(212, 21%, 14%);
+  --clr-neutral-500: hsl(228, 12%, 48%);
+  --clr-neutral-100: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--clr-primary-400);
+  font-size: 1.5rem;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1.6rem;
+}
+
+img {
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 3rem;
+  gap: 2rem;
+  background-color: var(--clr-neutral-100);
+  color: var(--clr-neutral-500);
+  border-radius: 1rem;
+}
+
+.type {
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+}
+
+.primary-heading {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 4rem;
+  width: 15ch;
+  color: var(--clr-neutral-800);
+}
+
+.lead {
+  line-height: 1.6em;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.current-price {
+  font-family: 'Fraunces', serif;
+  font-size: 3rem;
+  color: var(--clr-primary-800);
+}
+
+.old-price {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: var(--clr-neutral-500);
+  text-decoration: line-through;
+}
+
+.add-to-cart {
+  background-color: var(--clr-primary-800);
+  color: var(--clr-neutral-100);
+  padding: 1.5rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  transition: all 300ms ease-in;
+}
+
+.add-to-cart:hover,
+.add-to-cart:active {
+  background-color: var(--clr-primary-900);
+  cursor: pointer;
+}
+
+.cart-icon {
+  width: 1.6rem;
+  margin-right: 0.7em;
+}
