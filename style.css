@@ -27,23 +27,27 @@ body {
 main {
   display: flex;
   align-items: center;
+  justify-content: center;
   min-height: 100vh;
   padding: 1.6rem;
 }
 
-img {
-  width: 100%;
+picture img {
+  max-width: 100%;
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  padding: 3rem;
-  gap: 2rem;
   background-color: var(--clr-neutral-100);
   color: var(--clr-neutral-500);
   border-radius: 1rem;
+  overflow: hidden;
+  display: grid;
+}
+
+.product-content {
+  display: grid;
+  padding: 3rem;
+  gap: 1.6rem;
 }
 
 .type {
@@ -54,8 +58,8 @@ img {
 .primary-heading {
   font-family: 'Fraunces', serif;
   font-weight: 700;
-  font-size: 4rem;
-  width: 15ch;
+  font-size: 3.2rem;
+  /* width: 15ch; */
   color: var(--clr-neutral-800);
 }
 
@@ -102,4 +106,15 @@ img {
 .cart-icon {
   width: 1.6rem;
   margin-right: 0.7em;
+}
+
+@media (min-width: 600px) {
+  .main {
+    padding: 0;
+  }
+
+  .card {
+    grid-template-columns: 1fr 1fr;
+    max-width: 600px;
+  }
 }
